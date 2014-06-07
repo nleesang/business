@@ -38,7 +38,7 @@ margin:0px;
     padding: 0px;
 	height:100%;
 	min-height:600px;
-	min-width: 	2000px
+
 }
 
 
@@ -50,16 +50,22 @@ margin:0px;
    position:relative;
 }
 
+.top {
+	width: 100%;
+	background: orange;
+}
 .header {
 	border-bottom: 1px solid gray;
 	background: orange;
 	color:#fff;
 	height: 70px;
-	width:100%;
-min-width: 1340px;
+	
+width: 1340px;
   z-index:1;
 padding-top: 	10px;
 	font-family: arial, sans-serif;
+		margin-right: auto;
+	margin-left: 	auto;
 
 
 }
@@ -71,7 +77,7 @@ padding-top: 	10px;
 	font-size:35px;
 	width:300px;
 	height:59px;
-	margin-left: 12%;
+
 
 
 
@@ -80,7 +86,7 @@ padding-top: 	10px;
 .right {
 float: right;
 	width: 400px;
-	margin-right: 12%;
+
 	
 
 }
